@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    background-color: #385380;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav {
+    position: sticky;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #43A367;
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    margin-left:10px ;
+    text-decoration: none;
+    color: antiquewhite;
+}
+.hero{
+    height: calc(100vh);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    background:  url(../img/12.webp);
+    background-color: #43A367;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.glassHero {
+    border-radius: 10px;
+    width: 95%;
+    height: 80vh;
+    background-color: rgba(217, 217, 217, .7);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glassHero h1{
+    font-size: 70px;
+}
+.glassHero span {
+    color: maroon;
+}
+.BTS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #C6F1A2;
+    width: 95%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.bts-container{
+    display: flex;
+}
+.img-bts-container{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BTS img {
+    width: 400px;
+    height: 265px;
+    border-radius: 20px;
+}
+.bts-dis{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #C6F1A2;
+    width: 95%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.hs-container{
+    display: flex;
+}
+.img-hs-container{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HS img {
+    width: 400px;
+    height: 265px;
+    border-radius: 20px;
+}
+.hs-dis{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.FIF{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foodisfun-container{
+    width: 95%;
+    height: auto;
+    background: #43A367;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.food-1 , .food-2{
+    width: 80%;
+    display: flex;
+}
+.foodisfun-container img {
+    width: 300px;
+    border-radius: 10px;
+   
+}
+.img-food-1 , .img-food-2 {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.dis-food2 ,.dis-food1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
