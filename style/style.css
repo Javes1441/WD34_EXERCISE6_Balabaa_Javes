@@ -3,6 +3,7 @@
 body{
     margin: 0;
     background-color: #385380;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     display: flex;
